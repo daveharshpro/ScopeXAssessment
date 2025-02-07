@@ -30,10 +30,6 @@ Automation is implemented using **JavaScript and TypeScript** with Playwright. T
 - Logout.
 
 #### Automation Requirements
-- Register the user before running tests.
-- Capture screenshots and logs at critical steps.
-- Store test results and reports in this repository.
-- Follow structured and reusable test script best practices.
 - Set up environment variables using a `.env` file for secure credentials management.
 
 **Disclaimer:** I could have written more test cases for validations and API testing, but I have included one example of each to showcase the approach. Otherwise, I have written test cases as per the requirements.
