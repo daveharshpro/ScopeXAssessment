@@ -24,7 +24,7 @@ A detailed manual test plan and approach have been documented, covering:
 **Disclaimer:** Since I was asked to conduct exploratory testing, I have mentioned a limited number of bugs in the bug sheet. I found more bugs, but due to time constraints, I have not documented them.
 
 ### Automation Testing
-Automation is implemented using **JavaScript and TypeScript** with Playwright. The automation covers:
+Automation is implemented using **JavaScript** with Playwright. The automation covers:
 - Login with a registered user.
 - Adding a recipient.
 - Logout.
@@ -61,9 +61,8 @@ Exploratory testing is conducted to identify issues and bugs on both the Scopex 
   ├── package-lock.json
   ├── .gitignore
   ├── manual-testing/
-      ├── test_plan.doc  # Manual test plan
-      ├── bug_report.xlsx  # Bug sheet
-  ├── .github/workflows/  # CI/CD pipeline
+      ├── Manual Test Plan & Approach for Scopex Money.docx  # Manual test plan
+      ├── Bug Report ScopeX.xlsx  # Bug sheet
   ├── README.md           # Main repository README
 ```
 
