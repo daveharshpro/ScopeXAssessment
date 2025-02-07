@@ -56,18 +56,17 @@ Exploratory testing is conducted to identify issues and bugs on both the Scopex 
 
 ## Repository Structure
 ```
-/scopex-testing
-  ├── automation/
+/scopeXAssessment
   ├── tests/       # Contains test scripts
-  │   ├── scopeX.spec.js  # Playwright automation tests
+      ├── scopeX.spec.js  # Playwright automation tests
   ├── playwright.config.js # Playwright configuration
   ├── .env         # Environment variables
   ├── package.json
   ├── package-lock.json
   ├── .gitignore
   ├── manual-testing/
-  │   ├── test_plan.doc  # Manual test plan
-  │   ├── bug_report.xlsx  # Bug sheet
+      ├── test_plan.doc  # Manual test plan
+      ├── bug_report.xlsx  # Bug sheet
   ├── .github/workflows/  # CI/CD pipeline
   ├── README.md           # Main repository README
 ```
