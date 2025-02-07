@@ -93,12 +93,9 @@ Create a `.env` file in the root directory and configure the following environme
 
 ### Running Automation Tests
 ```sh
-npx playwright test
+npx playwright test --headed
 ```
 
 ## Contributors
-- [Your Name]
-
-## License
-This project is for internal testing purposes only.
+- Harsh Dave
 
