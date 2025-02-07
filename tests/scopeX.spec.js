@@ -18,7 +18,7 @@ test.afterAll(async ({ browser }) => {
 
 })
 
-test.describe('ScopeX Add ', async () => {
+test.describe.serial('ScopeX Assessment', async () => {
 
     test('Should be able to login Successfully', async () => {
         await page.goto(`${process.env.BASE_URL}/Login`);
